@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C9B8387E1A6DF6AD008E18AF /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B8387D1A6DF6AD008E18AF /* Swiftris.swift */; };
+		C9B838801A6DFC14008E18AF /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C9B8387F1A6DFC14008E18AF /* Sprites.atlas */; };
 		C9C3FBE11A6DAC9300F25373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3FBE01A6DAC9300F25373 /* AppDelegate.swift */; };
 		C9C3FBE51A6DAC9300F25373 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3FBE41A6DAC9300F25373 /* GameScene.swift */; };
 		C9C3FBE71A6DAC9300F25373 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3FBE61A6DAC9300F25373 /* GameViewController.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		C9B8387D1A6DF6AD008E18AF /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
+		C9B8387F1A6DFC14008E18AF /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		C9C3FBDB1A6DAC9300F25373 /* swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C3FBDF1A6DAC9300F25373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9C3FBE01A6DAC9300F25373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		C9C3FBDD1A6DAC9300F25373 /* swiftris */ = {
 			isa = PBXGroup;
 			children = (
+				C9B8387F1A6DFC14008E18AF /* Sprites.atlas */,
 				C9C3FC1C1A6DB32500F25373 /* Array2D.swift */,
 				C9C3FBE01A6DAC9300F25373 /* AppDelegate.swift */,
 				C9C3FBE41A6DAC9300F25373 /* GameScene.swift */,
@@ -286,6 +289,7 @@
 				C9C3FBEC1A6DAC9300F25373 /* Images.xcassets in Resources */,
 				C9C3FC1B1A6DAF4900F25373 /* whitebg@2x.png in Resources */,
 				C9C3FC0D1A6DAEE900F25373 /* levelup.mp3 in Resources */,
+				C9B838801A6DFC14008E18AF /* Sprites.atlas in Resources */,
 				C9C3FC0A1A6DAEE900F25373 /* bomb.mp3 in Resources */,
 				C9C3FC161A6DAF4900F25373 /* background.png in Resources */,
 				C9C3FC171A6DAF4900F25373 /* background@2x.png in Resources */,
