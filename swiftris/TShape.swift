@@ -44,7 +44,6 @@ class TShape:Shape {
         ]
     }
 
-    // #3
     override var bottomBlocksForOrientations: [Orientation: Array<Block>] {
         return [
             Orientation.Zero:       [blocks[SecondBlockIdx], blocks[ThirdBlockIdx], blocks[FourthBlockIdx]],

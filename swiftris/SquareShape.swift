@@ -26,7 +26,6 @@ class SquareShape:Shape {
         ]
     }
 
-    // #3
     override var bottomBlocksForOrientations: [Orientation: Array<Block>] {
         return [
             Orientation.Zero:       [blocks[ThirdBlockIdx], blocks[FourthBlockIdx]],
