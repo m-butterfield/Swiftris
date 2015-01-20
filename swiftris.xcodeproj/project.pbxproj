@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9B8387E1A6DF6AD008E18AF /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B8387D1A6DF6AD008E18AF /* Swiftris.swift */; };
 		C9C3FBE11A6DAC9300F25373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3FBE01A6DAC9300F25373 /* AppDelegate.swift */; };
 		C9C3FBE51A6DAC9300F25373 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3FBE41A6DAC9300F25373 /* GameScene.swift */; };
 		C9C3FBE71A6DAC9300F25373 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3FBE61A6DAC9300F25373 /* GameViewController.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C9B8387D1A6DF6AD008E18AF /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 		C9C3FBDB1A6DAC9300F25373 /* swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C3FBDF1A6DAC9300F25373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9C3FBE01A6DAC9300F25373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				C9C3FBE41A6DAC9300F25373 /* GameScene.swift */,
 				C9C3FC1E1A6DBAAE00F25373 /* Block.swift */,
 				C9C3FC201A6DC1FE00F25373 /* Shape.swift */,
+				C9B8387D1A6DF6AD008E18AF /* Swiftris.swift */,
 				C9C3FC221A6DEA1600F25373 /* SquareShape.swift */,
 				C9C3FC241A6DEB3200F25373 /* TShape.swift */,
 				C9C3FC261A6DEE4D00F25373 /* LineShape.swift */,
@@ -309,6 +312,7 @@
 				C9C3FC231A6DEA1600F25373 /* SquareShape.swift in Sources */,
 				C9C3FBE51A6DAC9300F25373 /* GameScene.swift in Sources */,
 				C9C3FC2B1A6DEE8500F25373 /* JShape.swift in Sources */,
+				C9B8387E1A6DF6AD008E18AF /* Swiftris.swift in Sources */,
 				C9C3FC211A6DC1FE00F25373 /* Shape.swift in Sources */,
 				C9C3FC1D1A6DB32500F25373 /* Array2D.swift in Sources */,
 				C9C3FC271A6DEE4D00F25373 /* LineShape.swift in Sources */,
