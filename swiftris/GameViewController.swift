@@ -145,7 +145,6 @@ class GameViewController: UIViewController, SwiftrisDelegate, UIGestureRecognize
 
     func gameShapeDidLand(swiftris: Swiftris) {
         scene.stopTicking()
-        nextShape()
 
         self.view.userInteractionEnabled = false
 
